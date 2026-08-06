@@ -1,10 +1,5 @@
 # roadmapsh-basic-dockerfile
 
-A minimal Docker project that builds a container image and prints `Hello, Captain!` when run.
-
-**Project Reference:** [roadmap.sh/projects/basic-dockerfile](https://roadmap.sh/projects/basic-dockerfile)
-
-
 ## Table of Contents
 
 - [About](#about)
@@ -22,7 +17,9 @@ A minimal Docker project that builds a container image and prints `Hello, Captai
 
 ## About
 
-This repository demonstrates the simplest possible Dockerfile setup for building an image that prints a message and exits.
+A minimal Docker project that builds a container image and prints `Hello, Captain!` when run.
+
+**Project Reference:** [roadmap.sh/projects/basic-dockerfile](https://roadmap.sh/projects/basic-dockerfile)
 
 ## Features
 
@@ -42,13 +39,32 @@ This repository demonstrates the simplest possible Dockerfile setup for building
 
 ## Installation & Usage
 
-Build the image:
+### Clone or downlad the repository:
+
+Option A - Clone with Git
+
+```bash
+git clone https://github.com/JescAude18/roadmapsh-basic-dockerfile.git
+cd roadmapsh-basic-dockerfile
+```
+
+Option B - Download ZIP from Github
+
+- Open the repository page: `https://github.com/JescAude18/roadmapsh-basic-dockerfile`
+- Click `Code` -> `Download ZIP`
+- Extract the archive and move into the project folder:
+
+```bash
+cd roadmapsh-basic-dockerfile
+```
+
+### Build the image:
 
 ```bash
 docker build -t roadmapsh-basic-dockerfile -f Dockerfile .
 ```
 
-Run the container:
+### Run the container:
 
 ```bash
 docker run --rm roadmapsh-basic-dockerfile
